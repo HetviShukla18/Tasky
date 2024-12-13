@@ -4,26 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tasky</title>
-    <link rel="shortcut icon" type="x-icon" href="logo.png">
+    <title>Tasky - To Do List</title>
     <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
     <div class="todo">
-        <h2>Tasky <img src="icon.png" alt="" id="img"></h2>
+        <h2>Tasky <img src="icon.png" alt="Icon"></h2>
         <div class="row">
-            <input type="text" id="input-box" placeholder="Add your Text">
-            <input type="date" id="date-input" placeholder="Select Date">
-            <input type="time" id="time-input" placeholder="Select Time">
+            <input type="text" id="input-box" placeholder="Add your Task">
+            <input type="date" id="date-input">
+            <input type="time" id="time-input">
             <button onclick="addTask()">Add Task</button>
         </div>
-        
         <ul id="list-container">
-            <li class="checked">Task 1</li>
-            <li>Task 1</li>
-            <li>Task 1</li>
+            <!-- Tasks will be added here -->
         </ul>
+        <div id="reminder-container">
+            <!-- Reminder messages will appear here -->
+        </div>
     </div>
     <script src="script.js"></script>
 </body>
