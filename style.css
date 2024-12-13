@@ -1,3 +1,4 @@
+
 * {
     margin: 0;
     padding: 0;
@@ -117,7 +118,7 @@ ul li::before {
 
 ul li.checked {
     background: #002765;
-    color: white;
+    color: rgb(19, 4, 4);
     border-radius: 50px;
 }
 
